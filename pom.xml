@@ -148,7 +148,7 @@
           </execution>
         </executions>
       </plugin>
-      <plugin>
+      <!-- plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
         <version>3.1.1</version>
@@ -181,7 +181,7 @@
             </goals>
           </execution>
         </executions>
-      </plugin>
+      </plugin-->
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
@@ -277,13 +277,6 @@
           </dependency>
         </dependencies>
       </plugin>
-	  <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-gradle-plugin -->
-		<plugin>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-gradle-plugin</artifactId>
-			<version>2.1.9.RELEASE</version>
-			<type>pom</type>
-		</plugin>
     </plugins>
   </build>
 
